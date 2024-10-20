@@ -1,0 +1,151 @@
+@import url(null.css);
+@font-face {
+    src: url(Roboto/Roboto-Regular.ttf);
+    font-family: 'Roboto-Regular';
+}
+@font-face {
+    src: url(Philosopher/Philosopher-Regular.ttf);
+    font-family: 'Philosopher-Regular';
+}
+body{
+    background-color: #ffe2b0;
+}
+.logo-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-head{
+    margin: 20px 0 20px 0;
+}
+.nav-head ul{
+    display: flex;
+    justify-content: center;    
+    gap: 100px;
+}
+.nav-head ul li a{
+font-size: 18px;
+color: black;
+font-weight: 600;
+text-transform: uppercase;
+font-family: 'Roboto', sans-serif;
+}
+.img-container{
+    margin-bottom: 20px;
+}
+.img-container img{
+width: 100%;
+height: 640px;
+position: relative;
+}
+.order-special{
+    position: absolute;
+    left: 790px;
+    top: 500px;
+    width: 420px;
+    height: 190px;
+    background-image: linear-gradient(180deg, rgba(244,213,178,0.8) 0%, rgba(234,156,65,0.8) 100%);
+}
+.border-text{
+    width: 390px;
+    height: 160px;
+    border: 1px solid #000000;
+    margin: 15px auto;
+}
+.border-text h1{
+    font-size: 36px;
+    font-family: 'Philosopher-Regular';
+    margin: 17px 0 9px 28px;
+}
+.border-text p{
+    font-size: 12px;
+    font-family: 'Roboto-Regular';
+    margin-left: 28px;
+    font-weight: 600; 
+}
+.three-img{
+    display: flex;
+    justify-content: center;
+    gap: 76px;
+    margin-bottom: 20px;
+}
+/* .three-img img{
+    animation: imgg 5s linear infinite;
+}
+
+@keyframes imgg {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+} */
+.baker-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.baker-text h1{
+    font-size: 96px;
+    font-family: 'Philosopher-Regular';
+}
+.baker-text h1 span{
+    color: #f15b40;
+}
+.baker-text p{
+    font-size: 18px;
+    font-family: 'Roboto-Regular';
+    margin-top: 10px;
+    width: 1000px;
+    text-align: center;
+}
+.baker-text h2{
+font-size: 36px;
+margin: 20px 0;
+    font-family: 'Philosopher-Regular';
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.baker-text h2:hover{
+    color: #f15b40;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 1024px;
+    height: 1px;
+    background-color: #999999;
+    margin: 20px auto;
+}
+
+.nav-foot ul{
+    display: flex;
+    justify-content: center;    
+    gap: 100px;
+}
+.nav-foot ul li a{
+font-size: 18px;
+color: black;
+font-weight: 540;
+text-transform: uppercase;
+font-family: 'Roboto', sans-serif;
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.arrow img{
+    width: 50px;
+    height: 50px;
+}
